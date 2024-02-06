@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.projects-container {
+  display: flex;
+  background: rgba(240, 177, 187, 0.591);
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  justify-content: center; /* Center-align content horizontally */
+  align-items: center; /* Center-align content vertically */
+}
+.project {
+  width: 25%; /* Adjust as needed */
+  height: 50%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background: white;
+}
+
+
+button {
+  background: #08f4f429;
+}
+  
